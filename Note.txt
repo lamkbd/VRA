@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/lamkbd/VRA.git
+git pull origin master
+git add *
+git commit -m "Noi dung ghi chu thay doi"
+git push origin master
