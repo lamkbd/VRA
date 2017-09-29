@@ -4,3 +4,15 @@ git pull origin master
 git add *
 git commit -m "Noi dung ghi chu thay doi"
 git push origin master
+
+git init
+git remote add origin https://github.com/lamkbd/VRA.git
+git add *
+git commit -m "Lecture 01 & Lecture 02"
+git push -u origin master
+
+Huong dan
+https://gist.github.com/Haosvit/bc64d8b83ea684b510063f45bd99111b
+Update proxy
+git config --global http.proxy http[s]://userName:password@proxyaddress:port
+git config --add remote.origin.proxy "http://[yourproxy]:[yourport]"
